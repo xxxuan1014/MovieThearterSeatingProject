@@ -50,8 +50,10 @@ java Tests.java
 ### Classes
 1. Model: Stores the reservation requests and reservation confirmations.
 2. Service: Implements methods to reserve a seat and check for empty seats.
-3. Recources: Stores input sample files and file for testing purposes.
-4. Utils/Main: The driver class which reads from the input file, creates the necessary objects and calls the relevant functions. And the Tests class to test specific cases.  
+3. Resources: Stores input sample files and file for testing purposes.
+4. Utils: Implements file reads and file write to output.
+5. Main: The driver class which reads from the input file, creates the necessary objects and calls the relevant functions.
+6. Tests: The Testing class to test specific cases.  
 
 ### Approach 
 

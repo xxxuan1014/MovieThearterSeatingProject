@@ -21,6 +21,7 @@ public class Solutions {
 
             SeatService seatService = new SeatService();
             fileProcess.writeToFile(seatService.booking(reservationList, false), reservationList);
+            System.out.println("Output file location - src/output.txt");
 
         } else {
             System.out.println("Please indicate input file path");
